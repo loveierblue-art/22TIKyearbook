@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Yearbook</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- StPageFlip CDN -->
+  <script src="https://unpkg.com/page-flip/dist/js/page-flip.browser.js"></script>
+</head>
+
+<body>
+
+  <!-- AUDIO -->
+  <button id="musicBtn">🎵</button>
+  <audio id="bgMusic" loop>
+    <source src="assets/music.mp3" type="audio/mpeg">
+  </audio>
+
+<div id="intro">
+  <h1>Our Yearbook 📖</h1>
+  <p>click to open</p>
+</div>
+
+  <!-- FLIPBOOK -->
+  <div id="book">
+    <div class="page cover">
+      <h1>Our Memories</h1>
+      <p>Class of 2022</p>
+    </div>
+
+    <!-- HALAMAN AKAN DIGENERATE DARI JS -->
+
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
