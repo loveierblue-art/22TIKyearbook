@@ -3,16 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <title>Our Yearbook</title>
-  <link rel="stylesheet" href="style.css">
 
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins&display=swap" rel="stylesheet">
-
   <!-- StPageFlip CDN -->
   <script src="https://unpkg.com/page-flip/dist/js/page-flip.browser.js"></script>
 </head>
 
 <body>
+
+  <!-- INTRO -->
+  <div id="intro">
+    <h1>Our Yearbook 📖</h1>
+    <p>click to open</p>
+  </div>
 
   <!-- AUDIO -->
   <button id="musicBtn">🎵</button>
@@ -20,23 +26,7 @@
     <source src="assets/music.mp3" type="audio/mpeg">
   </audio>
 
-<div id="intro">
-  <h1>Our Yearbook 📖</h1>
-  <p>click to open</p>
-</div>
-
-  <!-- FLIPBOOK -->
-  <div class="page">
-  </div class="photo">
-  <img src="https://via.placeholder.com/200" />
-  </div>
-
-    <div class="name">Bellina</div>
-    <div class="funfact">CEO in progress ... </div>
-    </div></div>
-    <!-- HALAMAN AKAN DIGENERATE DARI JS -->
-
-  </div>
+  <div id="buku"></div>
 
   <script src="data.js"></script>
   <script src="script.js"></script>
